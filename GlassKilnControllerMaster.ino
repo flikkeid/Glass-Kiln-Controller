@@ -2,7 +2,7 @@
 //
 //  FILE: GlassKilnControllerMaster.ino
 //  AUTHOR: Lars Flikkeid
-//  DATE: 23-07-2017
+//  DATE: 24-07-2017
 //
 //
 

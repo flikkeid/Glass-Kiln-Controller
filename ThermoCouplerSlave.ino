@@ -24,6 +24,9 @@ void setup()
 
 void loop()
 {
+  //temperatureBuffer[0] = (uint16_t) 20;
+  //temperatureBuffer[1] = (uint16_t) 21;
+  //temperatureBuffer[2] = (uint16_t) 22;
   temperatureBuffer[0] = (uint16_t) ktc1.readCelsius ();
   //  delay (500); 
   temperatureBuffer[1] = (uint16_t) ktc2.readCelsius ();

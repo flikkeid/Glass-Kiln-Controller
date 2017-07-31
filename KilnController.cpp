@@ -1,7 +1,7 @@
 //
 //  FILE: KilnController.ccp
 //  AUTHOR: Lars Flikkeid
-//  DATE: 24-07-2017
+//  DATE: 31-07-2017
 //
 //
 #include "KilnController.h"
@@ -181,7 +181,7 @@ void readThermocouplerI2C (KilnData* kilnData)
   kilnData->setTemperatureTC2 (intBuffer[1]);  
   kilnData->setTemperatureTC3 (intBuffer[2]);  
 
-  kilnData->setDebugValue ((uint16_t )intBuffer [0]);
+  kilnData->setDebugValue ((uint16_t )intBuffer [2]);
 }
 
 

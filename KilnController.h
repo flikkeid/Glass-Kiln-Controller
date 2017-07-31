@@ -1,7 +1,7 @@
 //
 //  FILE: KilnController
 //  AUTHOR: Lars Flikkeid
-//  DATE: 24-07-2017
+//  DATE: 31-07-2017
 //
 //
 
@@ -27,15 +27,17 @@
   #define LED_OFF false
 
 // Thermocoupler declarations
-  #define KTCSO1 8
-  #define KTCSO2 6
-  #define KTCSO3 4
-  #define KTCCS1 9
-  #define KTCCS2 7
-  #define KTCCS3 5
-  #define KTCCLK1 10	//10
-  #define KTCCLK2 3	//3
-  #define KTCCLK3 2	//2
+  #define KTCCLK1 4	//10
+  #define KTCCS1  3	//9
+  #define KTCSO1  2	//8
+
+  #define KTCCLK2 7	//3
+  #define KTCCS2  6	//7
+  #define KTCSO2  5	//6
+
+  #define KTCCLK3 8	//2
+  #define KTCCS3  9	//5
+  #define KTCSO3  10	//4
 
 // MENU defines
   #define MENU_ROWS 3
